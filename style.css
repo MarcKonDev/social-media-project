@@ -1,0 +1,28 @@
+/* #region Navigation */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+nav img {
+    width: 80px;
+    transition: transform 0.3s ease;
+}
+
+nav img:hover {
+    transform: scale(1.1);
+}
+
+nav button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+nav button:hover {
+    transform: scale(1.2);
+}
+/* #endregion */
