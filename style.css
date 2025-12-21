@@ -54,3 +54,44 @@ nav button:hover {
     transform: scale(1.2);
 }
 /* #endregion */
+
+
+/* #region Footer */
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: white;
+    border-top: 1px solid #ddd;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.footer-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.footer-btn svg {
+    width: 26px;
+    height: 26px;
+    fill: none;
+    stroke: black;
+    stroke-width: 2;
+}
+
+.footer-btn.active svg {
+    fill: black;
+}
+
+.footer-btn.add svg {
+    width: 30px;
+    height: 30px;
+}
+/* #endregion */
