@@ -24,6 +24,12 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+
+header{
+    position: relative;
+    overflow-x: hidden;
+    width: 100%;
+}
 /* #endregion */
 
 /* #region Navigation */
@@ -55,9 +61,27 @@ nav button:hover {
 }
 /* #endregion */
 
+/* #region Responsive Burger Menu */
+.responsive_menu {
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: transform 0.3s ease-in-out;
+}
+
+.close_responsive_menu {   
+    transform: translateX(100%);
+}
+/* #endregion */
 
 /* #region Footer */
-.footer {
+.mobile_footer {
     position: fixed;
     bottom: 0;
     width: 100%;
