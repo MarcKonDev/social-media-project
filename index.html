@@ -15,16 +15,15 @@
             <button id="burger" aria-label="Menü" onclick="toggleRespBurgerMenu()"></button>
         </nav>
         <div class="responsive_menu close_responsive_menu" id="responsive_menu">
-            <button onclick="toggleRespBurgerMenu()">X</button>
-            <a href="./index.html">Home</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
+            <span class="resp_menu_close_button">Infos<button onclick="toggleRespBurgerMenu()">X</button></span>
+            <span class="resp_menu_anchor"><a href="./index.html">Home</a>></span>
+            <span class="resp_menu_anchor"><a href="#">About</a>></span>
+            <span class="resp_menu_anchor"><a href="#">Contact</a>></span>
         </div>
     </header>
     <main></main>
     <footer class="mobile_footer" id="mobile_footer">
     </footer>
-
     <script src="script.js"></script>
     <script src="template.js"></script>
     <script src="burger-menu.js"></script>

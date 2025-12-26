@@ -4,4 +4,5 @@ function init() {
 
     let footerMenu = document.getElementById('mobile_footer');
     footerMenu.innerHTML = mobileFooterTemplate();
+
 }

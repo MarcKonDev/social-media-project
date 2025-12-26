@@ -37,7 +37,7 @@ function burgerMenuTemplate() {
 `
 }
 
-function mobileFooterTemplate(){
+function mobileFooterTemplate() {
     return `<nav class="footer-nav">
             <button class="footer-btn active" aria-label="Home">
                 <!-- Home Icon -->
