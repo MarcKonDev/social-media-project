@@ -46,7 +46,7 @@ function mobileFooterTemplate() {
                 </svg>
             </button>
 
-            <button class="footer-btn" aria-label="Search">
+            <button class="footer-btn" aria-label="Search" onclick="toggleSearchOverlay()">
                 <!-- Search Icon -->
                 <svg viewBox="0 0 24 24">
                     <circle cx="11" cy="11" r="7" />

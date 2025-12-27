@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>MySocialMedia</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -16,18 +16,32 @@
         </nav>
         <div class="responsive_menu close_responsive_menu" id="responsive_menu">
             <span class="resp_menu_close_button">Infos<button onclick="toggleRespBurgerMenu()">X</button></span>
-            <span class="resp_menu_anchor"><a href="./index.html">Home</a>></span>
-            <span class="resp_menu_anchor"><a href="#">About</a>></span>
-            <span class="resp_menu_anchor"><a href="#">Contact</a>></span>
+            <a class="resp_menu_item" href="./index.html">Home</a>
+            <a class="resp_menu_item" href="#">About</a>
+            <a class="resp_menu_item" href="#">Contact</a>
         </div>
     </header>
     <main></main>
+    <div id="search_overlay" class="search_overlay close_search_overlay">
+        <div class="search_input_container">
+            <svg class="search_icon" viewBox="0 0 24 24">
+                <circle cx="11" cy="11" r="7"></circle>
+                <line x1="16" y1="16" x2="22" y2="22"></line>
+            </svg>
+            <input type="search" placeholder="Suchen...">
+            <button class="close_search_button" onclick="toggleSearchOverlay()">X</button>
+        </div>
+
+        <div class="search_results">Ergebnisse</div>
+    </div>
     <footer class="mobile_footer" id="mobile_footer">
+
     </footer>
     <script src="script.js"></script>
     <script src="template.js"></script>
     <script src="burger-menu.js"></script>
     <script src="footer-menu.js"></script>
+    <script src="search-overlay.js"></script>
 </body>
 
 </html>
